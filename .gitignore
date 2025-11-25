@@ -1,0 +1,32 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Logs and storage
+/storage/logs/
+/storage/rendered/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHPStorm / IDE files
+.idea/
+/*.iml
+
+# Node modules if any front-end tooling is added
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.log
+
+# Public uploads (if any temporary files)
+public/uploads/
