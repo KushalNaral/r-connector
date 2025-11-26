@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "php -S localhost:8000 -t public",
+    "dev:host": "php -S 0.0.0.0:8000 -t public"
+  },
   "name": "php/r-connector-adaptor",
   "description": "Secure PDF Digital Signature Frontend with Session Injection",
   "type": "project",
