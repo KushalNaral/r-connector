@@ -17,9 +17,7 @@ if (!$autoloadFound) {
     die('<h1>Fatal Error</h1><p>Composer autoloader not found. Did you run <code>composer install</code>?</p>');
 }
 
-// ------------------------------------------------------------------
-// 2. Load .env (create it from .env.example if missing)
-// ------------------------------------------------------------------
+// Load .env (create it from .env.example if missing)
 $basePath = dirname(__DIR__);  // project root
 
 if (!file_exists($basePath . '/.env')) {
